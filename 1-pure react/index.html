@@ -34,6 +34,7 @@
     <script>
       function App() {
         //this function  Sets up a state to hold the current time
+        const [time, setTime] = React.useState(new Date().toLocaleTimeString());
 
         React.useEffect(function () {
           setInterval(function () {
