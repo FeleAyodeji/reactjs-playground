@@ -47,7 +47,6 @@ const pizzaData = [
   },
 ];
 
-// Main App component that renders the structure of the page
 function App() {
   return (
     <div className="container">
@@ -59,6 +58,7 @@ function App() {
 }
 
 // Header component that displays the title of the page
+
 function Header() {
   // const style = { color: "red", fontSize: "48px", textTransform: "uppercase" };
   const style = {};
