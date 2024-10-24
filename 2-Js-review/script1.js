@@ -275,7 +275,7 @@ const newBook = {
   id: 6,
   title: "Harry Potter and the Chamber of Secrets",
   author: "J. K. Rowling",
-};
+};2
 const booksAfterAdd = [...books, newBook];
 booksAfterAdd;
 
