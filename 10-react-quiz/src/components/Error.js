@@ -1,7 +1,15 @@
+import React from "react";
+
 function Error() {
   return (
     <p className="error">
-      <span>💥</span> There was an error fecthing questions.
+      <span
+        role="img"
+        aria-label="error"
+      >
+        💥
+      </span>{" "}
+      There was an error fetching questions.
     </p>
   );
 }
